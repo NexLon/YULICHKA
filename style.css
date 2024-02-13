@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#playPauseBtn {
+    box-shadow: 0 0 10px #ff89ef;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;
+    
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8bbbb;
+    #background-image: url(https://imgs.search.brave.com/jrxf3fNFVK3mSPXeTwl7-dVeM2vYzZeFTDC9zJIex_4/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS1hcGkueG9ncnAu/Y29tL2ltYWdlcy8x/MmU0ZjJiZC1mMWI1/LTQyYjUtYTJkNy05/N2RkZGRjM2UzMmM);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: url(https://cur.cursors-4u.net/mechanics/mec-4/mec399.ani), url(https://cur.cursors-4u.net/mechanics/mec-4/mec399.png), auto !important;
+    
+}
+
+.gif {
+    height: 100%;
+    width: 100%;
+    cursor: url(https://ani.cursors-4u.net/nature/nat-11/nat1047.cur), auto !important;
+}
+
+h2 {
+    text-align: center;x
+    font-size: 1.5em;
+    color: #e94d58;
+    margin: 15px 0;
+}
+
+.btn-group {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+button {
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px gray;
+    border: 2px solid #e94d58;
+    font-size: 1.2em;
+}
+
+button:nth-child(1) {
+    margin-left: -200px;
+    background: #e94d58;
+}
+
+button:nth-child(2) {
+    margin-right: -200px;
+    background: white;
+    color: #e94d58;
+}
+
+
+
